@@ -29,8 +29,9 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
 
 }
 .logo-header {
@@ -40,8 +41,9 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
     
 }
 
@@ -49,10 +51,11 @@ body {
     color: var(--light-cloud);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166;  
+    line-height: 1.17;  
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
     
 }
 
@@ -98,12 +101,14 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
     
     position: absolute;
     width: 496px;
     height: 120px;
     left: 472px;
     top: 260px;
+
 }   
 
 .main-button {
@@ -115,6 +120,14 @@ body {
     top: 428px;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--white-background);
+    align-items: center;
+
 
 }
 .main-button:hover {
@@ -127,18 +140,12 @@ body {
 
 }
 
-.button-description {
-    color: var(--white-background);
-    align-items: center;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    line-height: 1.5;
-}
 
 .features-heading{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     
 }
 
@@ -153,6 +160,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    
        
 }
 
