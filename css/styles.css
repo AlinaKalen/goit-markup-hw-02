@@ -20,7 +20,7 @@ body {
     color: var(--dark-navy-blue);
     background-color: var(--white-background);
     font-size: 16px;
-    
+    color: var(--text-slate);
 }
 .logo {
     color: var(--primary-brand-iris);
@@ -34,6 +34,10 @@ body {
     font-family: "Raleway", sans-serif;
 
 }
+
+.link{
+    text-decoration: none;
+}
 .logo-header {
     color: var(--dark-navy-blue);
     align-items: center;
@@ -42,7 +46,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-decoration: none;
+   
     font-family: "Raleway", sans-serif;
     
 }
@@ -74,7 +78,7 @@ body {
 }
 
 .contact {
-    color: var(--subtle-text-light-slate);
+    color: var(--text-slate);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
@@ -146,12 +150,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--dark-navy-blue);
     
 }
 
 .feature-description {
     color: var(--text-slate);
-    line-height: 2.652;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     
 }
 
@@ -160,6 +166,8 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    color: var(--dark-navy-blue);
+    text-transform: capitalize;
     
        
 }
@@ -175,11 +183,15 @@ body {
     line-height: 1.11;  
     text-align: center;
     text-transform: capitalize;
+    color: var(--dark-navy-blue);
+    letter-spacing: 0.02em; 
 }
 
 .team-card{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    color: var(--dark-navy-blue);
+    background-color: var(--white-background);
 }
 
 .team-card-name {
@@ -187,12 +199,15 @@ body {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+    color: var(--dark-navy-blue);
+    letter-spacing: 0.02em;
 }
 
 .team-description {
     color: var(--text-slate);
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .footer-section {
@@ -247,9 +262,16 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--dark-navy-blue);
 }
 
 .project-text {
     color: var(--text-slate);
     line-height: 1.5;
 }
+
+
+.list {
+    list-style: none;
+}
+
